@@ -1,3 +1,5 @@
-# template-repository
+Version history:
 
-This is my template for reference.
+v(version) 0(page).0(section).0(update)
+
+- v 0.1.0 - Initial updates.

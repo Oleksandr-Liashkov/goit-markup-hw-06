@@ -235,7 +235,7 @@ button {
 .team-list-item {
   border-radius: 0 0 4px 4px;
   padding-bottom: 32px;
-  width: 264;
+  width: 100%;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
@@ -312,4 +312,55 @@ button {
   background-color: #fff;
   padding-top: 96px;
   padding-bottom: 96px;
+}
+
+.portfolio-main-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 72px;
+}
+
+.portfolio-list-item {
+  width: 100%;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+}
+
+.portfolio-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-list-img {
+  margin-bottom: 32px;
+}
+
+.portfolio-list-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  display: block;
+  margin-bottom: 8px;
+  padding-left: 16px;
+}
+
+.portfolio-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  display: block;
+  padding-left: 16px;
 }

@@ -17,3 +17,5 @@ v(version) 0(page).0(section).0(update)
 - v 0.5.2 - Small updates.
 
 - v 0.5.3 - Small updates.
+
+- v 1.0.0 - Header adaptation for Tablet and Desktop completed.

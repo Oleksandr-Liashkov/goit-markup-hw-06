@@ -42,6 +42,7 @@
           Web<span class="part-header-logo">Studio</span></a
         >
         <button
+          data-menu-open
           class="header-menu-btn"
           type="button"
         >
@@ -53,6 +54,124 @@
             <use href="./images/icon.svg#icon-menu"></use>
           </svg>
         </button>
+      </div>
+      <!-- MOBILE MENU -->
+      <div
+        data-menu
+        class="mobile-menu"
+      >
+        <div class="container mobile-menu-container">
+          <button
+            data-menu-close
+            class="menu-close-btn"
+            type="button"
+          >
+            <svg
+              class="menu-close-btn-icon"
+              width="8"
+              height="8"
+            >
+              <use href="./images/icon.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+              <li class="mobile-menu-nav-list-item">
+                <a
+                  class="mobile-menu-nav-list-link"
+                  href=""
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-list-item">
+                <a
+                  class="mobile-menu-nav-list-link"
+                  href=""
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-nav-list-item">
+                <a
+                  class="mobile-menu-nav-list-link"
+                  href=""
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-address">
+            <ul class="mobile-menu-address-list">
+              <li class="mobile-menu-address-list-item">
+                <a
+                  class="mobile-menu-address-list-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-menu-address-list-item">
+                <a
+                  class="mobile-menu-address-list-link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-soc-list">
+            <li class="mobile-menu-soc-list-item">
+              <a
+                target="_blank"
+                class="mobile-menu-soc-list-link"
+                href="https://www.instagram.com"
+                ><svg
+                  class="mobile-menu-soc-list-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icon.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-menu-soc-list-item">
+              <a
+                target="_blank"
+                class="mobile-menu-soc-list-link"
+                href="https://twitter.com"
+                ><svg
+                  class="mobile-menu-soc-list-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icon.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-menu-soc-list-item">
+              <a
+                target="_blank"
+                class="mobile-menu-soc-list-link"
+                href="https://www.facebook.com"
+                ><svg
+                  class="mobile-menu-soc-list-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icon.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-menu-soc-list-item">
+              <a
+                target="_blank"
+                class="mobile-menu-soc-list-link"
+                href="https://www.linkedin.com"
+                ><svg
+                  class="mobile-menu-soc-list-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icon.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -146,17 +265,19 @@
                       <use href="./images/icon.svg#icon-twitter"></use></svg
                   ></a>
                 </li>
-                <a
-                  target="_blank"
-                  class="team-sub-list-link"
-                  href="https://www.facebook.com"
-                  ><svg
-                    class="team-sub-list-icon"
-                    width="16"
-                    height="16"
-                  >
-                    <use href="./images/icon.svg#icon-facebook"></use></svg
-                ></a>
+                <li class="team-sub-list-item">
+                  <a
+                    target="_blank"
+                    class="team-sub-list-link"
+                    href="https://www.facebook.com"
+                    ><svg
+                      class="team-sub-list-icon"
+                      width="16"
+                      height="16"
+                    >
+                      <use href="./images/icon.svg#icon-facebook"></use></svg
+                  ></a>
+                </li>
                 <li class="team-sub-list-item">
                   <a
                     target="_blank"
@@ -520,6 +641,7 @@
         </form>
       </div>
     </footer>
+    <!-- MODAL -->
     <div
       data-modal
       class="backdrop"
@@ -645,5 +767,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

@@ -62,7 +62,6 @@ button {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  max-width: 320px;
 }
 
 .header-logo {
@@ -94,6 +93,10 @@ button {
   background-color: transparent;
 }
 
+.header-menu-icon {
+  fill: #2f2f37;
+}
+
 /* ------------------------------------------------------------- */
 
 /* INTRO SECTION */
@@ -105,7 +108,6 @@ button {
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
-  max-width: 320px;
 }
 
 .intro-header {
@@ -157,7 +159,6 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #fff;
-  max-width: 320px;
 }
 
 .goals-list-header {
@@ -194,7 +195,6 @@ button {
   background-color: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
-  max-width: 320px;
 }
 
 .team-container {
@@ -294,7 +294,6 @@ button {
   background-color: #fff;
   padding-top: 96px;
   padding-bottom: 96px;
-  max-width: 320px;
 }
 
 .portfolio-main-header {
@@ -356,7 +355,6 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #2e2f42;
-  max-width: 320px;
 }
 
 .footer-logo {
@@ -515,7 +513,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open {
+.backdrop.is-open-modal {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -773,7 +771,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu.is-open {
+.mobile-menu.is-open-menu {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;

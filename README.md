@@ -15,3 +15,5 @@ v(version) 0(page).0(section).0(update)
 - v 0.5.1 - Small updates.
 
 - v 0.5.2 - Small updates.
+
+- v 0.5.3 - Small updates.

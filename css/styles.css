@@ -808,6 +808,7 @@ button {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  opacity: 0.5;
 }
 
 .modal-form-textarea:focus {
@@ -1192,6 +1193,23 @@ button {
   }
 
   /* MODAL */
+
+  .modal {
+    min-height: 584px;
+    width: 408px;
+  }
+
+  .modal-form-input {
+    width: 360px;
+  }
+
+  .modal-form-textarea {
+    width: 360px;
+  }
+
+  .policy-checkbox-text {
+    width: 338px;
+  }
 }
 
 /* ------------------------------------------------------------- */
@@ -1351,6 +1369,4 @@ button {
   .footer-form-input {
     width: 264px;
   }
-
-  /* MODAL */
 }

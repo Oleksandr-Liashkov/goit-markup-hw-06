@@ -25,3 +25,5 @@ v(version) 0(page).0(section).0(update)
 - v 1.1.1 - Small updates.
 
 - v 1.2.1 - "Team" Section adaptation for Tablet and Desktop completed.
+
+- v 1.3.1 - "Portfolio" Section adaptation for Tablet and Desktop completed.

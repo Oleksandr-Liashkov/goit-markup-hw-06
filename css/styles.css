@@ -187,6 +187,13 @@ button {
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
+  max-width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro-container {
+  padding: 0 52px;
 }
 
 .intro-header {
@@ -1071,6 +1078,13 @@ button {
       url(../images/bg-img-tab.jpg);
     padding-top: 112px;
     padding-bottom: 112px;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro-container {
+    padding: 0 136px;
   }
 
   .intro-header {
@@ -1130,6 +1144,54 @@ button {
     flex-basis: calc((100% - 24px) / 2);
     margin-bottom: 0;
   }
+
+  /* FOOTER */
+
+  .footer-main-container {
+    padding: 0 136px;
+  }
+
+  .footer-sub-container {
+    display: flex;
+    gap: 24px;
+    align-items: first baseline;
+    margin-bottom: 72px;
+  }
+
+  .footer-sub-container-one {
+    text-align-last: left;
+  }
+
+  .footer-text {
+    margin-bottom: 0;
+  }
+
+  .footer-soc-list {
+    margin-bottom: 0;
+  }
+
+  .footer-soc-text {
+    text-align: left;
+  }
+
+  .footer-input-text {
+    text-align: left;
+  }
+
+  .footer-form-input {
+    margin: 0;
+  }
+
+  .footer-form-btn {
+    margin: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* MODAL */
 }
 
 /* ------------------------------------------------------------- */
@@ -1140,6 +1202,11 @@ button {
   /* HEADER */
 
   .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  .footer-main-container {
     max-width: 1158px;
     padding: 0 15px;
   }
@@ -1183,6 +1250,13 @@ button {
       url(../images/bg-img-desk.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro-container {
+    padding: 0 331px;
   }
 
   .intro-header {
@@ -1249,4 +1323,34 @@ button {
   .portfolio-list-image-container-text {
     display: flex;
   }
+
+  /* FOOTER */
+
+  .page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-main-container {
+    display: flex;
+  }
+
+  .footer-sub-container {
+    margin-bottom: 0;
+  }
+
+  .footer-sub-container-one {
+    max-width: 264px;
+    margin-right: 125px;
+  }
+
+  .footer-sub-container-three {
+    margin-left: auto;
+  }
+
+  .footer-form-input {
+    width: 264px;
+  }
+
+  /* MODAL */
 }

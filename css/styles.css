@@ -318,7 +318,7 @@ button {
 .team-list-item {
   border-radius: 0 0 4px 4px;
   padding-bottom: 32px;
-  width: 100%;
+  width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
@@ -416,15 +416,12 @@ button {
 }
 
 .portfolio-list-item {
-  width: 100%;
+  width: 288px;
   background: #fff;
   margin-bottom: 48px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-list-item:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -1144,6 +1141,7 @@ button {
   .portfolio-list-item {
     flex-basis: calc((100% - 24px) / 2);
     margin-bottom: 0;
+    width: 356px;
   }
 
   /* FOOTER */
@@ -1181,6 +1179,7 @@ button {
 
   .footer-form-input {
     margin: 0;
+    width: 264px;
   }
 
   .footer-form-btn {
@@ -1197,6 +1196,8 @@ button {
   .modal {
     min-height: 584px;
     width: 408px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 
   .modal-form-input {
@@ -1336,10 +1337,17 @@ button {
 
   .portfolio-list-item {
     flex-basis: calc((100% - 72px) / 3);
+    width: 360px;
+    box-shadow: none;
   }
 
   .portfolio-list-image-container-text {
     display: flex;
+  }
+
+  .portfolio-list-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
 
   /* FOOTER */

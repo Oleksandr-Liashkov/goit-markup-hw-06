@@ -931,6 +931,7 @@ button {
   display: flex;
   flex-direction: column;
   height: 100%;
+  z-index: 999;
 }
 
 .mobile-menu-nav {

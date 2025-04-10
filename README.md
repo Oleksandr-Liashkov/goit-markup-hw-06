@@ -41,3 +41,5 @@ v(version) 0(page).0(section).0(update)
 - v 1.5.4 - All images resolution change arranged.
 
 - v 1.5.5 - Icons compressed.
+
+- v 1.5.6 - .gitignore modified.

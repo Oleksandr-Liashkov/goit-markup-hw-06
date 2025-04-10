@@ -237,6 +237,16 @@ button {
   background-color: #404bbf;
 }
 
+@media screen and (min-resolution: 2x) {
+  .intro-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-img-tel-2x.jpg);
+  }
+}
+
 /* ------------------------------------------------------------- */
 
 /* GOALS SECTION */
@@ -1092,6 +1102,16 @@ button {
     margin-bottom: 36px;
   }
 
+  @media screen and (min-resolution: 2x) {
+    .intro-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-img-tab-2x.jpg);
+    }
+  }
+
   /* GOALS SECTION */
 
   .goals-list-header {
@@ -1280,6 +1300,16 @@ button {
 
   .intro-header {
     margin-bottom: 48px;
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .intro-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-img-desk-2x.jpg);
+    }
   }
 
   /* GOALS SECTION */

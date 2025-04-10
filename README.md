@@ -33,3 +33,5 @@ v(version) 0(page).0(section).0(update)
 - v 1.5.0 - Modal adaptation for Tablet and Desktop completed.
 
 - v 1.5.1 - Small updates.
+
+- v 1.5.2 - "Intro" Section background image resolution change arranged.

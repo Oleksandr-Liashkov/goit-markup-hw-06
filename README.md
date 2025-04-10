@@ -39,3 +39,5 @@ v(version) 0(page).0(section).0(update)
 - v 1.5.3 - "Team" Section images resolution change arranged.
 
 - v 1.5.4 - All images resolution change arranged.
+
+- v 1.5.5 - Icons compressed.

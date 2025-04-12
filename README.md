@@ -45,3 +45,5 @@ v(version) 0(page).0(section).0(update)
 - v 1.5.6 - .gitignore modified.
 
 - v 1.5.7 - Small updates.
+
+- v 1.5.8 - Small updates.

@@ -1165,6 +1165,7 @@ button {
   }
 
   .portfolio-list-item {
+    margin-bottom: 0;
     flex-basis: calc((100% - 24px) / 2);
   }
 
